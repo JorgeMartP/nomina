@@ -1,0 +1,107 @@
+.containerTable {
+    padding: 10%;
+  }
+  .button-Emp button{
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #144C78;
+    cursor: pointer;
+    color: #ffff;
+  }
+  .button-Emp h1{
+    text-align: center;
+    padding: 10px;
+  }
+  .button-Emp{
+    padding: 20px 0 20px 0;
+  }
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed; /* Ensure fixed layout */
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 0.35em;
+  }
+  table th{
+    background-color: #144C78;
+    color: #ffff;
+  }
+
+  table th,
+  table td {
+    padding: 0.625em;
+    text-align: center;
+    word-wrap: break-word; /* Ensure text wraps within cells */
+  }
+  
+  table th {
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  table th:nth-child(4), /* Correo column */
+  table th:nth-child(5) { /* Teléfono column */
+    min-width: 150px; /* Ensure minimum width */
+  }
+  
+  @media screen and (max-width: 600px) {
+    .containerTable {
+        padding-top: 20%;
+      }
+    table {
+      border: 0;
+    }
+    table caption {
+      font-size: 1.3em;
+    }
+  
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+  
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: 0.625em;
+    }
+  
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: 0.8em;
+      text-align: right;
+    }
+  
+    table td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }

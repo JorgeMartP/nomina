@@ -1,0 +1,117 @@
+.header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: #4CA7E4;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 5px 10%;
+    z-index: 1;
+  }
+  .header .imagen {
+    display: flex;
+    align-items: center;
+  }
+  .header .imagen a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .header .imagen a img{
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .header .imagen .logo img{
+    height: 50px;
+    width: 50px;
+  }
+  
+  .header .imagen .logo-imagen img{
+    height: 55px;
+    width: auto;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    border: #ffff 2px solid;
+    font-size: 600;
+  }
+  .header .imagen button{
+    border: none;
+    background-color: #4CA7E4;
+    cursor: pointer;
+  }
+  .header .nav-links{
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+  }
+  .header .nav-links a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+  }
+  .header #icon{
+    position: absolute;
+    font-size: 30px;
+    float: left;
+    margin-left: auto;
+    left: 0;
+    padding-left: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .search__input {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #ffff;
+    border: none;
+    color: #646464;
+    padding: 0.7rem 1rem;
+    border-radius: 30px;
+    width: 20em;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+  }
+  
+  .search__input:hover, .search__input:focus {
+    box-shadow: 0 0 1em #00000013;
+  }
+  
+  .search__input:focus {
+    outline: none;
+    background-color: #f0eeee;
+  }
+  
+  .search__input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+  }
+  
+  .search__input:focus + .search__button {
+    background-color: #f0eeee;
+  }
+  
+  .search__button {
+    border: none;
+    background-color: #ffff;
+    margin-top: .1em;
+  }
+  
+  .search__button:hover {
+    cursor: pointer;
+  }
+  
+  .search__icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: #b4b4b4;
+  }

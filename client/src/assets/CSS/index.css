@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 130px 0 0 0;
+}
+.container_home{
+    max-width: 600px;
+    width: 100%;
+    padding: 50px 0 20px 0;
+}
+
+.secContainer {
+    margin-bottom: 20px;
+  }
+  
+  .section_tittle {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+    border: 1px solid #4ca7e4;
+    border-radius: 25px;
+    background-color: #c1dff6;
+  }
+  .section_tittle img {
+    transition: transform 0.3s ease;
+  }
+  
+  .section_tittle img.rotated {
+    transform: rotate(180deg);
+  }
+  .section_content {
+    max-height: 0;
+    background-color: #ffff;
+    border-radius: 10px;
+    overflow: hidden;
+
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  }
+  .section_content p{
+    padding: 0 10px 0 10px;
+  }
+  .section_content.active {
+    max-height: 200px; /* Ajusta esto según el contenido */
+    padding: 10px;
+    transition: max-height 0.3s ease-in, padding 0.3s ease-in;
+  }
+  .cont_content{
+    padding: 0 20px 0 20px;
+  }

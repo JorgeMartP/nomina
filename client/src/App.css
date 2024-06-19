@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f8fd ;
+}
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content {
+    flex: 1;
+}
+footer {
+    background-color: #144c78;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
