@@ -11,6 +11,43 @@
     cursor: pointer;
     color: #ffff;
   }
+  .container-button .botton-1{
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #144C78;
+    cursor: pointer;
+    color: #ffff;
+  }
+  .container-button{
+    padding: 3%;
+  }
+  .container-button h1{
+    text-align: center;
+    padding: 10px;
+  }
+  .button-Emp a{
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #144C78;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffff;
+    text-align: center;
+    display: block;
+    top: 55px;
+    position: relative;
+  }
+  .container-flex{
+    display: flex;
+    gap: 50px;
+    
+  }
   .button-Emp h1{
     text-align: center;
     padding: 10px;

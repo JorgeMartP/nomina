@@ -6,6 +6,7 @@ import Home from "./componentes/Home";
 import "./App.css";
 import "./assets/CSS/header.css";
 import Empleado from "./componentes/Empleado";
+import Nomina from "./componentes/Nomina";
 function App() {
     
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home></Home>} />
           <Route path="/login" element={<InicioSesion></InicioSesion>} />
           <Route path="/empleado" element={<Empleado></Empleado>}></Route>
+          <Route path="/nomina" element={<Nomina></Nomina>}></Route>
         </Routes>
         </main>
       </BrowserRouter>
